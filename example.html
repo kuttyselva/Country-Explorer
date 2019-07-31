@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <script src="https://use.fontawesome.com/b9bbd489e9.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="mystyle.css" />
+    <script type="text/javascript" src="myscript.js"></script>
+  </head>
+  <body>
+    <h1>Get Countries Information</h1>
+    <h6>Search and Go</h6>
+
+    <hr style="width:40%;border:1px solid black;" />
+    <br />
+
+    <input
+      type="text"
+      placeholder="Nepal (Ex - Nep)"
+      autocomplete="off"
+      onchange="myfunc(this.value)"
+      id="name"
+    />
+
+    <br /><br />
+
+    <div class="resultBar">
+      Results
+    </div>
+
+    <div class="contentBox" id="contentBox">
+      <div class="tile">
+        <a href="detail.html?name=IND">
+        <div class="flag">
+          <img src="https://restcountries.eu/data/ind.svg" />
+        </div>
+
+        <div class="name">India</div>
+        <div class="other">New Delhi | Asia | 20 , 77 | தமிழ் |</div>
+
+        <div class="info">
+          <div class="flexItem pop">1295210000</div>
+          <div class="flexItem area">3287590 km sq.</div>
+          <div class="flexItem curr">₹</div>
+        </div>
+
+        <br />
+
+        <div class="ticker">
+          <div class="domain">Top Level Domain -> .in</div>
+          <div class="callId">+91</div>
+        </div>
+      </a>
+      </div>
+    </div>
+  </body>
+</html>
